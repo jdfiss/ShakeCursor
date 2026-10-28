@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <rect width="640" height="240" rx="14" fill="#f3f4f6"/>
+  <text x="24" y="36" font-family="Segoe UI, Microsoft JhengHei, sans-serif" font-size="16" fill="#6b7280">搖晃滑鼠 → 游標放大 / Shake to find</text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" dur="4s" repeatCount="indefinite"
+      values="240 30;400 30;240 30;400 30;240 30;400 30;300 30;300 30"
+      keyTimes="0;0.06;0.12;0.18;0.24;0.30;0.36;1"/>
+    <g>
+      <animateTransform attributeName="transform" type="scale" dur="4s" repeatCount="indefinite"
+        values="1.5;1.5;9;9;1.5;1.5" keyTimes="0;0.3;0.38;0.7;0.78;1"/>
+      <polygon transform="translate(0.6 0.9)" fill="#000" fill-opacity="0.27"
+        points="0,0 0,17 4,13.2 6.8,19.6 9.6,18.4 6.9,12.2 12.2,12.2"/>
+      <polygon fill="#fff" stroke="#000" stroke-width="1.1" stroke-linejoin="round"
+        points="0,0 0,17 4,13.2 6.8,19.6 9.6,18.4 6.9,12.2 12.2,12.2"/>
+    </g>
+  </g>
+</svg>

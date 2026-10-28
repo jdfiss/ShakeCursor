@@ -1,5 +1,7 @@
 # ShakeCursor
 
+<p align="center"><img src="demo.svg" alt="ShakeCursor demo" width="640"></p>
+
 **Shake your mouse to find the cursor — on Windows.**
 macOS 的「搖晃以尋找游標」，搬到 Windows。
 
